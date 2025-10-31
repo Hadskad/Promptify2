@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promptify</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Promptify</h1>
+    <p class="subtitle">Refine your AI prompts with built-in intelligence.</p>
+
+    <textarea id="userPrompt" placeholder="Enter your prompt here..."></textarea>
+
+    <div class="buttons">
+      <button id="rewriteBtn">Refine Prompt</button>
+      <button id="copyBtn">Copy Output</button>
+    </div>
+
+    <textarea id="output" placeholder="Your refined prompt will appear here..." readonly></textarea>
+  <button id="aboutBtn" class="about">About Promptify</button>
+  </div>
+  <script type="module" src="config.js"></script>
+  <script type="module" src="popup.js"></script>
+
+</body>
+</html>
